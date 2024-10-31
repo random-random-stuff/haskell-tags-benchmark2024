@@ -1,0 +1,43 @@
+- 0.3.1 (2021-10-10)
+    - Support `aeson-2.0.0.0`
+
+- 0.3 (2020-05-16)
+    - Major rewrite: use `structured`.
+
+- 0.2 (2019-05-14)
+    - use cryptohash-sha1,
+      types of structuralInfoSha1Digest and structuralInfoSha1Digest are changed.
+    - Use binary-instances in tests
+- 0.1.5.2 (2019-05-10)
+    - generics-sop-0.5
+- 0.1.5.1 (2018-09-24)
+    - GHC-8.6.1
+- 0.1.5 (2018-05-20)
+    - GHC-8.4.2
+    - Don't depend on nats and semigroups on newer GHC
+- 0.1.4.2 (2016-12-05)
+    - Fix compilation with generics-sop-0.2.3.0
+- 0.1.4.1 (2016-09-20)
+    - Print mismatching hashes in base16 encoding
+- 0.1.4.0 (2016-04-12)
+    - Add semigroups types
+    - Add Natural
+- 0.1.3.1 (2016-02-10)
+    - Support GHC 8.0
+- 0.1.3.0 (2015-10-24)
+    - Support `generics-sop-0.2`
+- 0.1.2.0 (2015-10-06)
+    - Add tuple `HasSemanticVersion` instances
+    - Add instances for
+        - `()`
+        - `Float`
+        - `Double`
+        - Version`
+        - `Fixed`
+        - `Ordering`
+    - Fix `Interleave` &amp; `SumUpTo`, introduce `Div2`
+- 0.1.1.0
+    - Add instances
+        - `Ratio`
+        - `Word`
+        - `HasSemanticVersion` for primitive types
